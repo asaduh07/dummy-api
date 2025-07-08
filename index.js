@@ -8,7 +8,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.get('/', (req, res) => {
-    res.status(200).send("Welcome to the training api")
+    res.status(200).send("Welcome to the dummy api")
 });
 
 app.post('/api/dummy/balance-inquiry', (req, res) => {
